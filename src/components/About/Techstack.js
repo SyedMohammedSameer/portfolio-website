@@ -2,8 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiPython } from "react-icons/di";
-import { SiNumpy, SiPandas, SiTensorflow, SiScikitlearn, SiNltk } from "react-icons/si";
-import { FaChartLine } from "react-icons/fa"; // Matplotlib
+import { SiNumpy, SiPandas, SiTensorflow, SiScikitlearn } from "react-icons/si";
+import { FaChartLine, FaBook } from "react-icons/fa"; 
 
 function Techstack() {
   return (
@@ -30,7 +30,7 @@ function Techstack() {
         <SiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNltk />
+        <FaBook /> {/* Using a book icon to represent NLTK */}
       </Col>
     </Row>
   );
