@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiPython } from "react-icons/di";
 import { SiNumpy, SiPandas, SiTensorflow, SiScikitlearn } from "react-icons/si";
-import { FaChartLine, FaBook } from "react-icons/fa"; 
 
 function Techstack() {
   return (
@@ -28,9 +27,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTensorflow />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaBook /> {/* Using a book icon to represent NLTK */}
       </Col>
     </Row>
   );
